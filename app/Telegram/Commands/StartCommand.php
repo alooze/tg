@@ -12,7 +12,7 @@ class StartCommand extends Command
     public function handle()
     {
         $this->replyWithMessage([
-            'text' => 'Hey, there! Welcome to our bot!',
+            'text' => 'Hey, there! Welcome to our bot!!!',
         ]);
     }
 }
