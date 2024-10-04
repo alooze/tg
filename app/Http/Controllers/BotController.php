@@ -40,8 +40,8 @@ class BotController extends Controller
     public function read()
     {
         $settings = (new \danog\MadelineProto\Settings\AppInfo)
-            ->setApiId(20737516)
-            ->setApiHash('51f71f08ab8790f1370c41e7c48805b1');
+            ->setApiId(***)
+            ->setApiHash('***');
 
         $API = new \danog\MadelineProto\API('session.madeline2', $settings);
 
