@@ -3,10 +3,16 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BotController;
 use App\Http\Controllers\WebhookController;
+use App\Http\Controllers\AdminController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [AdminController::class, 'index'])->name('start');
+Route::get('/cats', [AdminController::class, 'categories'])->name('cat.list');
+Route::get('/channels', [AdminController::class, 'channels'])->name('channel.list');
+Route::get('/options', [AdminController::class, 'options'])->name('options');
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // Route::post('/webhook', function() {
 //     // return response(content: 'OK', status: 200);

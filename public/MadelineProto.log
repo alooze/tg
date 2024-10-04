@@ -6884,3 +6884,170 @@ SessionPaths, alooze_ph:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\publi
 SessionPaths, alooze_ph:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\public\session.madeline1\lightState.php.lock...
 SessionPaths, alooze_ph:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\public\session.madeline1\lightState.php.lock...
 APIWrapper, alooze_ph:     	Saved session!
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Logger:         	MadelineProto can be translated in your language (current translation progress: 58%), go to https://weblate.madelineproto.xyz to contribute with the translation!
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+AbstractServer: 	Starting IPC server C:\OSPanel\home\tg.lc\tg\public\session.madeline2 (process)
+ProcessRunner:  	Starting process with "C:\OSPanel\modules\PHP-8.3\PHP\php.exe" "-dhtml_errors=0" "-ddisplay_errors=0" "-dlog_errors=1" "C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\Ipc\Runner/entry.php" "madeline-ipc" "C:\OSPanel\home\tg.lc\tg\public\session.madeline2" "1707457083"
+AbstractServer: 	AssertionError: C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\Ipc\Runner/entry.php is not within absolute document root C:\OSPanel\home\tg.lc\tg\public\! in C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\Ipc\Runner\WebRunner.php:61
+Stack trace:
+#0 C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\Ipc\AbstractServer.php(121): danog\MadelineProto\Ipc\Runner\WebRunner::start('C:\\OSPanel\\home...', 1707457083)
+#1 C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\Serialization.php(176): danog\MadelineProto\Ipc\AbstractServer::startMe(Object(danog\MadelineProto\SessionPaths))
+#2 C:\OSPanel\home\tg.lc\tg\vendor\amphp\amp\src\functions.php(33): danog\MadelineProto\Serialization::unserialize(Object(danog\MadelineProto\SessionPaths), Object(danog\MadelineProto\Settings\AppInfo), false)
+#3 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\AbstractDriver.php(425): Amp\{closure}(NULL, NULL, Array)
+#4 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\AbstractDriver.php(562): Revolt\EventLoop\Internal\AbstractDriver->invokeMicrotasks()
+#5 [internal function]: Revolt\EventLoop\Internal\AbstractDriver->Revolt\EventLoop\Internal\{closure}()
+#6 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\AbstractDriver.php(498): Fiber->start()
+#7 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\AbstractDriver.php(537): Revolt\EventLoop\Internal\AbstractDriver->invokeCallbacks()
+#8 [internal function]: Revolt\EventLoop\Internal\AbstractDriver->Revolt\EventLoop\Internal\{closure}()
+#9 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\AbstractDriver.php(94): Fiber->start()
+#10 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\DriverSuspension.php(117): Revolt\EventLoop\Internal\AbstractDriver->Revolt\EventLoop\Internal\{closure}()
+#11 C:\OSPanel\home\tg.lc\tg\vendor\amphp\amp\src\Future.php(251): Revolt\EventLoop\Internal\DriverSuspension->suspend()
+#12 C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\API.php(312): Amp\Future->await(Object(Amp\Internal\WrappedCancellation))
+#13 C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\API.php(194): danog\MadelineProto\API->connectToMadelineProto(Object(danog\MadelineProto\Settings\AppInfo))
+#14 C:\OSPanel\home\tg.lc\tg\app\Http\Controllers\BotController.php(46): danog\MadelineProto\API->__construct('session.madelin...', Object(danog\MadelineProto\Settings\AppInfo))
+#15 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(46): App\Http\Controllers\BotController->read()
+#16 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Route.php(262): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\BotController), 'read')
+#17 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Route.php(208): Illuminate\Routing\Route->runController()
+#18 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Router.php(808): Illuminate\Routing\Route->run()
+#19 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(144): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#20 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php(51): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\VerifyCsrfToken.php(88): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#24 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\View\Middleware\ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#25 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
+#28 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#29 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#30 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#31 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\EncryptCookies.php(75): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#32 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#33 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(119): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Router.php(807): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#35 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Router.php(786): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#36 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Router.php(750): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#37 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Router.php(739): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#38 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(201): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#39 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(144): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#40 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#42 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TrimStrings.php(51): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#45 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#46 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Http\Middleware\ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#47 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#48 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance.php(110): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#49 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#50 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Http\Middleware\HandleCors.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#51 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#52 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Http\Middleware\TrustProxies.php(58): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#53 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#54 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks.php(22): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#55 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks->handle(Object(Illuminate\Http\Request), Object(Closure))
+#56 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(119): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#57 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(176): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#58 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(145): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#59 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1188): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#60 C:\OSPanel\home\tg.lc\tg\public\index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#61 {main}
+AbstractServer: 	Starting IPC server C:\OSPanel\home\tg.lc\tg\public\session.madeline2 (web)
+AbstractServer: 	AssertionError: C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\Ipc\Runner/entry.php is not within absolute document root C:\OSPanel\home\tg.lc\tg\public\! in C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\Ipc\Runner\WebRunner.php:61
+Stack trace:
+#0 C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\Ipc\AbstractServer.php(128): danog\MadelineProto\Ipc\Runner\WebRunner::start('C:\\OSPanel\\home...', 1707457083)
+#1 C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\Serialization.php(176): danog\MadelineProto\Ipc\AbstractServer::startMe(Object(danog\MadelineProto\SessionPaths))
+#2 C:\OSPanel\home\tg.lc\tg\vendor\amphp\amp\src\functions.php(33): danog\MadelineProto\Serialization::unserialize(Object(danog\MadelineProto\SessionPaths), Object(danog\MadelineProto\Settings\AppInfo), false)
+#3 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\AbstractDriver.php(425): Amp\{closure}(NULL, NULL, Array)
+#4 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\AbstractDriver.php(562): Revolt\EventLoop\Internal\AbstractDriver->invokeMicrotasks()
+#5 [internal function]: Revolt\EventLoop\Internal\AbstractDriver->Revolt\EventLoop\Internal\{closure}()
+#6 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\AbstractDriver.php(498): Fiber->start()
+#7 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\AbstractDriver.php(537): Revolt\EventLoop\Internal\AbstractDriver->invokeCallbacks()
+#8 [internal function]: Revolt\EventLoop\Internal\AbstractDriver->Revolt\EventLoop\Internal\{closure}()
+#9 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\AbstractDriver.php(94): Fiber->start()
+#10 C:\OSPanel\home\tg.lc\tg\vendor\revolt\event-loop\src\EventLoop\Internal\DriverSuspension.php(117): Revolt\EventLoop\Internal\AbstractDriver->Revolt\EventLoop\Internal\{closure}()
+#11 C:\OSPanel\home\tg.lc\tg\vendor\amphp\amp\src\Future.php(251): Revolt\EventLoop\Internal\DriverSuspension->suspend()
+#12 C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\API.php(312): Amp\Future->await(Object(Amp\Internal\WrappedCancellation))
+#13 C:\OSPanel\home\tg.lc\tg\vendor\danog\madelineproto\src\API.php(194): danog\MadelineProto\API->connectToMadelineProto(Object(danog\MadelineProto\Settings\AppInfo))
+#14 C:\OSPanel\home\tg.lc\tg\app\Http\Controllers\BotController.php(46): danog\MadelineProto\API->__construct('session.madelin...', Object(danog\MadelineProto\Settings\AppInfo))
+#15 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(46): App\Http\Controllers\BotController->read()
+#16 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Route.php(262): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\BotController), 'read')
+#17 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Route.php(208): Illuminate\Routing\Route->runController()
+#18 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Router.php(808): Illuminate\Routing\Route->run()
+#19 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(144): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#20 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php(51): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#22 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\VerifyCsrfToken.php(88): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#23 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#24 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\View\Middleware\ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#25 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
+#28 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#29 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#30 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#31 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\EncryptCookies.php(75): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#32 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#33 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(119): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#34 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Router.php(807): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#35 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Router.php(786): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#36 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Router.php(750): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#37 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Routing\Router.php(739): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#38 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(201): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#39 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(144): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#40 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#42 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TrimStrings.php(51): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#45 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#46 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Http\Middleware\ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#47 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#48 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance.php(110): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#49 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#50 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Http\Middleware\HandleCors.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#51 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#52 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Http\Middleware\TrustProxies.php(58): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#53 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#54 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks.php(22): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#55 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(183): Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks->handle(Object(Illuminate\Http\Request), Object(Closure))
+#56 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(119): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#57 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(176): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#58 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(145): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#59 C:\OSPanel\home\tg.lc\tg\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1188): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#60 C:\OSPanel\home\tg.lc\tg\public\index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#61 {main}
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	For Windows users: please switch to Linux if this fails. You can also try modifying the firewall settings to allow all PHP processes to create sockets (it's 100% easier to just switch to Linux, on Linux MadelineProto just works out of the box, no changes needed)
+Exception:      	stream_socket_client(): Unable to connect to tcp://127.0.0.1:57394 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение) in functions.php:47
+Serialization:  	stream_socket_client(): Unable to connect to tcp://127.0.0.1:57394 (Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение) while connecting to IPC socket
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Logger:         	MadelineProto can be translated in your language (current translation progress: 58%), go to https://weblate.madelineproto.xyz to contribute with the translation!
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	For Windows users: please switch to Linux if this fails. You can also try modifying the firewall settings to allow all PHP processes to create sockets (it's 100% easier to just switch to Linux, on Linux MadelineProto just works out of the box, no changes needed)
+Serialization:  	Connected to IPC socket!
+APIWrapper:     	Shutting down MadelineProto (danog\MadelineProto\API)
+APIWrapper:     	Prompting final serialization...
+APIWrapper:     	Done final serialization!
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Logger:         	MadelineProto can be translated in your language (current translation progress: 58%), go to https://weblate.madelineproto.xyz to contribute with the translation!
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	For Windows users: please switch to Linux if this fails. You can also try modifying the firewall settings to allow all PHP processes to create sockets (it's 100% easier to just switch to Linux, on Linux MadelineProto just works out of the box, no changes needed)
+Serialization:  	Connected to IPC socket!
+APIWrapper:     	Shutting down MadelineProto (danog\MadelineProto\API)
+APIWrapper:     	Prompting final serialization...
+APIWrapper:     	Done final serialization!

@@ -78,28 +78,29 @@ class BotController extends Controller
         // }
 
         $chat = 'https://t.me/zakaz_design';
-        // $res = $API->getInfo($chat);
+        // $chat = 'https://t.me/+h8tJkUNM_wc5MzEy';
+        $res = $API->getInfo($chat);
 
-        // var_dump($res);
+        var_dump($res);
 
 
         // // \danog\MadelineProto\Logger::log($me);
         // $lastid = 24;
 
         // /* Получим историю сообщений */
-        $messages = $API->messages->getHistory([
-                /* Название канала, без @ */
-            'peer' => $chat, 
-            'offset_id' => 0, 
-            'offset_date' => 0, 
-            'add_offset' => 0,
-            'limit' => 10,
-            'max_id' => 9999999, 
-                /* ID сообщения, с которого начинаем поиск */
-            'min_id' => 24, // https://t.me/rx_john_galt/24
-        ]);
+        // $messages = $API->messages->getHistory([
+        //         /* Название канала, без @ */
+        //     'peer' => $chat, 
+        //     'offset_id' => 0, 
+        //     'offset_date' => 0, 
+        //     'add_offset' => 0,
+        //     'limit' => 10,
+        //     'max_id' => 9999999, 
+        //         /* ID сообщения, с которого начинаем поиск */
+        //     'min_id' => 24, // https://t.me/rx_john_galt/24
+        // ]);
 
-        var_dump($messages);
+        // var_dump($messages);
 
         /* Сообщения, сортировка по дате (новые сверху) */
         // $messages = $messages['messages'];
