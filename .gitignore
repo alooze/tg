@@ -1,7 +1,7 @@
 /.phpunit.cache
 /node_modules
 /public/build
-/public/custom.log
+/public/*.log
 /public/hot
 /public/session*
 /public/storage
