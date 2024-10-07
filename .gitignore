@@ -1,7 +1,9 @@
 /.phpunit.cache
 /node_modules
 /public/build
+/public/custom.log
 /public/hot
+/public/session*
 /public/storage
 /storage/*.key
 /vendor
@@ -14,6 +16,7 @@ Homestead.json
 Homestead.yaml
 auth.json
 npm-debug.log
+/session*
 yarn-error.log
 /.fleet
 /.idea
