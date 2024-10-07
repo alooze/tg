@@ -3,6 +3,9 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
+use App\Domain\Orders\Commands\GrabMessages;
+use App\Domain\Orders\Commands\ParseMessages;
+use App\Domain\Orders\Commands\SendPosts;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -16,6 +19,11 @@ return Application::configure(basePath: dirname(__DIR__))
             '/webhook',
         ]);
     })
+    ->withCommands([
+        GrabMessages::class,
+        ParseMessages::class,
+        SendPosts::class,
+    ])
     ->withExceptions(function (Exceptions $exceptions) {
         //
     })->create();

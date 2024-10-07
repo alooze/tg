@@ -38,10 +38,10 @@ class ChannelsController extends Controller
         $settings = (new \danog\MadelineProto\Settings\AppInfo)
             ->setApiId(env('TELEGRAM_API_ID'))
             ->setApiHash('TELEGRAM_API_HASH');
-        $API = new \danog\MadelineProto\API('session.madeline2', $settings);
+        $API = new \danog\MadelineProto\API(env('TELEGRAM_GRAB_SESSION'), $settings);
         $API->start();
 
-        echo '<pre>';
+        // echo '<pre>';
         $chat = $request->link;
         // $chat = 'https://t.me/zakaz_design';
         // $chat = 'https://t.me/+h8tJkUNM_wc5MzEy';

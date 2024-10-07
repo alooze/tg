@@ -1,0 +1,963 @@
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+DataCenter:     	Acquiring connect lock for 2!
+DataCenter:     	Connecting to DC 2
+DataCenterConnection: 	Restoring 0 messages to DC 2
+Session:        	Resetting session in DC 2.0 due to creating initial session...
+Connection:     	Connecting to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream 
+Connection:     	Connected to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream!
+DataCenterConnection: 	Acquiring lock in order to init auth for DC 2
+DataCenterConnection: 	Initing auth for DC 2
+DataCenterConnection: 	Done initing auth for DC 2
+Session:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+PingLoop:       	Ping DC 2.0
+MTProto:        	AUTH_KEY_UNREGISTERED
+MTProto:        	Starting update system
+APIWrapper:     	MadelineProto is ready!
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 6 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 4 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+DataCenter:     	Acquiring connect lock for 2!
+DataCenter:     	Connecting to DC 2
+DataCenterConnection: 	Restoring 0 messages to DC 2
+Session:        	Resetting session in DC 2.0 due to creating initial session...
+Connection:     	Connecting to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream 
+Connection:     	Connected to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream!
+DataCenterConnection: 	Acquiring lock in order to init auth for DC 2
+DataCenterConnection: 	Initing auth for DC 2
+DataCenterConnection: 	Done initing auth for DC 2
+Session:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+PingLoop:       	Ping DC 2.0
+MTProto:        	AUTH_KEY_UNREGISTERED
+MTProto:        	Starting update system
+APIWrapper:     	MadelineProto is ready!
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+DataCenter:     	Acquiring connect lock for 2!
+DataCenter:     	Connecting to DC 2
+DataCenterConnection: 	Restoring 0 messages to DC 2
+Session:        	Resetting session in DC 2.0 due to creating initial session...
+Connection:     	Connecting to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream 
+Connection:     	Connected to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream!
+DataCenterConnection: 	Acquiring lock in order to init auth for DC 2
+DataCenterConnection: 	Initing auth for DC 2
+DataCenterConnection: 	Done initing auth for DC 2
+Session:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+PingLoop:       	Ping DC 2.0
+MTProto:        	AUTH_KEY_UNREGISTERED
+MTProto:        	Starting update system
+APIWrapper:     	MadelineProto is ready!
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 6 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 4 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 2.0
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+DataCenter:     	Acquiring connect lock for 2!
+DataCenter:     	Connecting to DC 2
+DataCenterConnection: 	Restoring 0 messages to DC 2
+Session:        	Resetting session in DC 2.0 due to creating initial session...
+Connection:     	Connecting to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream 
+Connection:     	Connected to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream!
+DataCenterConnection: 	Acquiring lock in order to init auth for DC 2
+DataCenterConnection: 	Initing auth for DC 2
+DataCenterConnection: 	Done initing auth for DC 2
+Session:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+PingLoop:       	Ping DC 2.0
+MTProto:        	AUTH_KEY_UNREGISTERED
+MTProto:        	Starting update system
+APIWrapper:     	MadelineProto is ready!
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+DataCenter, alooze_ph:     	Acquiring connect lock for 2!
+DataCenter, alooze_ph:     	Connecting to DC 2
+DataCenterConnection, alooze_ph: 	Restoring 0 messages to DC 2
+Session, alooze_ph:        	Resetting session in DC 2.0 due to creating initial session...
+Connection, alooze_ph:     	Connecting to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream 
+Connection, alooze_ph:     	Connected to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream!
+DataCenterConnection, alooze_ph: 	Acquiring lock in order to init auth for DC 2
+DataCenterConnection, alooze_ph: 	Initing auth for DC 2
+DataCenterConnection, alooze_ph: 	Done initing auth for DC 2
+Session, alooze_ph:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+PingLoop, alooze_ph:       	Ping DC 2.0
+MTProto, alooze_ph:        	Starting update system
+MTProto, alooze_ph:        	Obtaining updates after deserialization...
+APIWrapper, alooze_ph:     	MadelineProto is ready!
+SessionPaths, alooze_ph:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths, alooze_ph:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelMessageViews
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002036798943
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001601929546
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001497606177
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001203363626
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001076431027
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001411765767
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001092413834
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001394050290
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001101170442
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+PingLoop, alooze_ph:       	Ping DC 2.0
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+Session, alooze_ph:        	Garbage collected 22 incoming messages in DC 2, 0 left
+Session, alooze_ph:        	Garbage collected 18 outgoing messages in DC 2, 0 left
+PingLoop, alooze_ph:       	Ping DC 2.0
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+PingLoop, alooze_ph:       	Ping DC 2.0
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+DataCenter, alooze_ph:     	Acquiring connect lock for 2!
+DataCenter, alooze_ph:     	Connecting to DC 2
+DataCenterConnection, alooze_ph: 	Restoring 0 messages to DC 2
+Session, alooze_ph:        	Resetting session in DC 2.0 due to creating initial session...
+Connection, alooze_ph:     	Connecting to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream 
+Connection, alooze_ph:     	Connected to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream!
+DataCenterConnection, alooze_ph: 	Acquiring lock in order to init auth for DC 2
+DataCenterConnection, alooze_ph: 	Initing auth for DC 2
+DataCenterConnection, alooze_ph: 	Done initing auth for DC 2
+Session, alooze_ph:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+PingLoop, alooze_ph:       	Ping DC 2.0
+MTProto, alooze_ph:        	Starting update system
+MTProto, alooze_ph:        	Obtaining updates after deserialization...
+APIWrapper, alooze_ph:     	MadelineProto is ready!
+SessionPaths, alooze_ph:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths, alooze_ph:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+PingLoop, alooze_ph:       	Ping DC 2.0
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+UpdateHandler, alooze_ph:  	Saving update of type updateNewChannelMessage
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+DataCenter, alooze_ph:     	Acquiring connect lock for 2!
+DataCenter, alooze_ph:     	Connecting to DC 2
+DataCenterConnection, alooze_ph: 	Restoring 0 messages to DC 2
+Session, alooze_ph:        	Resetting session in DC 2.0 due to creating initial session...
+Connection, alooze_ph:     	Connecting to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream 
+Connection, alooze_ph:     	Connected to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream!
+DataCenterConnection, alooze_ph: 	Acquiring lock in order to init auth for DC 2
+DataCenterConnection, alooze_ph: 	Initing auth for DC 2
+DataCenterConnection, alooze_ph: 	Done initing auth for DC 2
+Session, alooze_ph:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+PingLoop, alooze_ph:       	Ping DC 2.0
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+MTProto, alooze_ph:        	Starting update system
+MTProto, alooze_ph:        	Obtaining updates after deserialization...
+APIWrapper, alooze_ph:     	MadelineProto is ready!
+SessionPaths, alooze_ph:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths, alooze_ph:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+PingLoop, alooze_ph:       	Ping DC 2.0
+MinDatabase, alooze_ph:    	Found 2 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001394050290
+MinDatabase, alooze_ph:    	Don't have origin info with min peer 1394050290, this may fail
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateLoop, alooze_ph:     	Channel private, exiting getUpdate loop channel -1001394050290
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+Session, alooze_ph:        	Garbage collected 47 incoming messages in DC 2, 0 left
+Session, alooze_ph:        	Garbage collected 20 outgoing messages in DC 2, 0 left
+PingLoop, alooze_ph:       	Ping DC 2.0
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002020575377
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+PingLoop, alooze_ph:       	Ping DC 2.0
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002020575377
+UpdateHandler, alooze_ph:  	Saving update of type updateNewChannelMessage
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+Session, alooze_ph:        	Garbage collected 38 incoming messages in DC 2, 0 left
+Session, alooze_ph:        	Garbage collected 8 outgoing messages in DC 2, 0 left
+PingLoop, alooze_ph:       	Ping DC 2.0
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002020575377
+UpdateHandler, alooze_ph:  	Saving update of type updateNewChannelMessage
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001101170442
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002020575377
+UpdateHandler, alooze_ph:  	Saving update of type updateEditChannelMessage
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+PingLoop, alooze_ph:       	Ping DC 2.0
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 2 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001101170442
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelMessageViews
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Saving update of type updateMessagePoll
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+Session, alooze_ph:        	Garbage collected 30 incoming messages in DC 2, 0 left
+Session, alooze_ph:        	Garbage collected 12 outgoing messages in DC 2, 0 left
+PingLoop, alooze_ph:       	Ping DC 2.0
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+SessionPaths, alooze_ph:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths, alooze_ph:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\safe.php.lock...
+SessionPaths, alooze_ph:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+SessionPaths, alooze_ph:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\lightState.php.lock...
+APIWrapper, alooze_ph:     	Saved session!
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+UpdateHandler, alooze_ph:  	Saving update of type updateEditChannelMessage
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 3 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+UpdateHandler, alooze_ph:  	Saving update of type updateNewChannelMessage
+PingLoop, alooze_ph:       	Ping DC 2.0
+MinDatabase, alooze_ph:    	Found 3 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+DataCenter, alooze_ph:     	Acquiring connect lock for 2!
+DataCenter, alooze_ph:     	Connecting to DC 2
+DataCenterConnection, alooze_ph: 	Restoring 0 messages to DC 2
+Session, alooze_ph:        	Resetting session in DC 2.0 due to creating initial session...
+Connection, alooze_ph:     	Connecting to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream 
+Connection, alooze_ph:     	Connected to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream!
+DataCenterConnection, alooze_ph: 	Acquiring lock in order to init auth for DC 2
+DataCenterConnection, alooze_ph: 	Initing auth for DC 2
+DataCenterConnection, alooze_ph: 	Done initing auth for DC 2
+Session, alooze_ph:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+PingLoop, alooze_ph:       	Ping DC 2.0
+MTProto, alooze_ph:        	Starting update system
+MTProto, alooze_ph:        	Obtaining updates after deserialization...
+APIWrapper, alooze_ph:     	MadelineProto is ready!
+SessionPaths, alooze_ph:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths, alooze_ph:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002020575377
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001101170442
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002020575377
+UpdateHandler, alooze_ph:  	Saving update of type updateEditChannelMessage
+FeedLoop, alooze_ph:       	Getdiff fed me message of type message in update feed loop channel -1002223954716...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+UpdateHandler, alooze_ph:  	Saving update of type updateNewChannelMessage
+UpdateHandler, alooze_ph:  	Saving update of type updateEditChannelMessage
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+UpdateHandler, alooze_ph:  	Saving update of type updateNewChannelMessage
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1002223954716
+UpdateHandler, alooze_ph:  	Saving update of type updateEditChannelMessage
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+DataCenter, alooze_ph:     	Acquiring connect lock for 2!
+DataCenter, alooze_ph:     	Connecting to DC 2
+DataCenterConnection, alooze_ph: 	Restoring 0 messages to DC 2
+Session, alooze_ph:        	Resetting session in DC 2.0 due to creating initial session...
+Connection, alooze_ph:     	Connecting to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream 
+Connection, alooze_ph:     	Connected to DC 2.0 via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream!
+DataCenterConnection, alooze_ph: 	Acquiring lock in order to init auth for DC 2
+DataCenterConnection, alooze_ph: 	Initing auth for DC 2
+DataCenterConnection, alooze_ph: 	Done initing auth for DC 2
+Session, alooze_ph:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+PingLoop, alooze_ph:       	Ping DC 2.0
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+MTProto, alooze_ph:        	Starting update system
+MTProto, alooze_ph:        	Obtaining updates after deserialization...
+APIWrapper, alooze_ph:     	MadelineProto is ready!
+SessionPaths, alooze_ph:   	Waiting for exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+SessionPaths, alooze_ph:   	Got exclusive lock of C:\OSPanel\home\tg.lc\tg\session.madeline2\ipcState.php.lock...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001667685947
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001664858107
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001652257917
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001601929546
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001251217154
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001179238799
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001069772626
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001076431027
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001203363626
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001112562459
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001092413834
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001052505009
+FeedLoop, alooze_ph:       	Got channel too long update, getting difference...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001101170442
+UpdateHandler, alooze_ph:  	Saving update of type updateNewChannelMessage
+UpdateHandler, alooze_ph:  	Saving update of type updateNewChannelMessage
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001271765197
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateNewAuthorization
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updates) received via the socket...
+SeqLoop, alooze_ph:        	Was fed updates of type updates...
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop channel -1001076431027
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelMessageViews
+MinDatabase, alooze_ph:    	Found 1 pending contexts
+UpdateHandler, alooze_ph:  	Parsing updates (updateShort) received via the socket...
+FeedLoop, alooze_ph:       	Resumed update feed loop generic
+UpdateHandler, alooze_ph:  	Saving update of type updateChannelUserTyping

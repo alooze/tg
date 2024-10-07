@@ -10,6 +10,8 @@ use danog\MadelineProto\Tools;
 use danog\MadelineProto\Logger;
 use danog\MadelineProto\Settings\Logger as LoggerSettings;
 
+use App\Models\Channel;
+
 class BotController extends Controller
 {
     protected $telegram;
@@ -40,12 +42,84 @@ class BotController extends Controller
     public function read()
     {
         $settings = (new \danog\MadelineProto\Settings\AppInfo)
-            ->setApiId(***)
-            ->setApiHash('***');
+            ->setApiId(env('TELEGRAM_API_ID'))
+            ->setApiHash(env('TELEGRAM_API_HASH'));
 
-        $API = new \danog\MadelineProto\API('session.madeline2', $settings);
+        $API = new \danog\MadelineProto\API(env('TELEGRAM_GRAB_SESSION'), $settings);
 
         $API->start();
+
+        $channels = Channel::where('status', 1)->get();
+
+        foreach ($channels as $c) {
+            if ($c->last_message_id == 1) {
+                $c->last_message_id = -1;
+            }
+
+            /* Получим историю сообщений */
+            $messages = $API->messages->getHistory([
+                    /* Название канала, без @ */
+                'peer' => $c->channel_id, 
+                'offset_id' => 0, 
+                'offset_date' => 0, 
+                'add_offset' => 0,
+                'limit' => 10,
+                'max_id' => 9999999, 
+                'min_id' => $c->last_message_id, 
+            ]);
+            // https://t.me/zakaz_design/2667
+            // https://t.me/rx_john_galt/24
+            dump($messages);
+        }
+
+
+        // Log::create([
+        //     'type' => 'grab',
+        //     'chat_id' => '1',
+        //     'message_id' => '1',
+        //     'post_id' => '1',
+        // ]);
+
+        file_put_contents(storage_path('logs/grab.log'),  date('d-m-Y H:i') . PHP_EOL, FILE_APPEND);
+    }
+
+    public function read1()
+    {
+        $settings = (new \danog\MadelineProto\Settings\AppInfo)
+            ->setApiId(env('TELEGRAM_API_ID'))
+            ->setApiHash(env('TELEGRAM_API_HASH'));
+
+        $API = new \danog\MadelineProto\API(env('TELEGRAM_GRAB_SESSION'), $settings);
+        $API->start();
+
+        $channels = Channel::where('status', 1)->get();
+
+        $me = $API->getSelf();
+
+        // $settings = (new LoggerSettings)
+        //     ->setType(Logger::FILE_LOGGER)
+        //     ->setExtra('custom.log')
+        //     ->setMaxSize(50*1024*1024);
+        // $API->updateSettings($settings);
+
+        echo '<pre>';
+        foreach ($channels as $c) {
+            /* Получим историю сообщений */
+            $messages = $API->messages->getHistory([
+                    /* Название канала, без @ */
+                'peer' => $c->channel_id, 
+                'offset_id' => 0, 
+                'offset_date' => 0, 
+                'add_offset' => 0,
+                'limit' => 10,
+                // 'max_id' => 9999999, 
+                // 'min_id' => 24, // https://t.me/rx_john_galt/24
+            ]);
+            // https://t.me/zakaz_design/2659
+            dump($messages);
+        }
+
+        return;
 
         // $API->phoneLogin(Tools::readLine('Enter your phone number: '));
         // $authorization = $MadelineProto->completePhoneLogin(Tools::readLine('Enter the phone code: '));

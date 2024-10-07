@@ -6,7 +6,7 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="{{ route('start') }}">Главная</a></li>
-    <li class="breadcrumb-item"><a href="{{ route('cats.index') }}">Категории</a></li>
+    <li class="breadcrumb-item"><a href="{{ route('cats.index') }}">Каналы и чаты</a></li>
     <li class="breadcrumb-item active" aria-current="page">{{ $title }}</li>
   </ol>
 </nav>
@@ -23,9 +23,6 @@
   @endif
 
 
-
-access_hash
-status
   <div data-mdb-input-init class="form-outline mb-4">
     <input type="text" id="title" class="form-control" name="title" value="{{ old('title') ?? $c->title }}" />
     <label class="form-label" for="title">Название</label>
