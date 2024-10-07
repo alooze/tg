@@ -35,21 +35,37 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
     />
     <!-- Regular MDB theme -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="/css/mdb.min.css" />
   </head>
   <body data-mdb-theme="dark">
     <header>
-@yield('nav')
-</header>
+    @include('templates.chunks.nav')
+    </header>
 
     <!-- Start your project here-->
     <div class="container my-5">
+      @yield('crumbs')
+
+      @if (session('status'))
+      <div class="alert alert-info alert-dismissible fade show" role="alert" data-mdb-alert-init="" data-mdb-alert-initialized="true">
+        {{ session('status') }}
+        <button type="button" class="btn-close" data-mdb-dismiss="alert" aria-label="Close"></button>
+      </div>
+      @endif
+
+      @if (session('alert'))
+      <div class="alert alert-danger alert-dismissible fade show" role="alert" data-mdb-alert-init="" data-mdb-alert-initialized="true">
+        {{ session('alert') }}
+        <button type="button" class="btn-close" data-mdb-dismiss="alert" aria-label="Close"></button>
+      </div>
+      @endif
+
       @yield('content')
     </div>
     <!-- End your project here-->
 
     <!-- MDB -->
-    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+    <script type="text/javascript" src="/js/mdb.umd.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
   </body>

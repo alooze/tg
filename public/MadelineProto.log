@@ -7051,3 +7051,68 @@ Serialization:  	Connected to IPC socket!
 APIWrapper:     	Shutting down MadelineProto (danog\MadelineProto\API)
 APIWrapper:     	Prompting final serialization...
 APIWrapper:     	Done final serialization!
+ProcessRunner:  	Got message from worker: WARNING: MadelineProto runs around 10x slower on windows due to OS and PHP limitations. Make sure to deploy MadelineProto in production only on Linux or Mac OS machines for maximum performance.
+ProcessRunner:  	Got final message from worker: 
+ProcessRunner:  	Got final message from worker: 
+AbstractServer: 	IPC server started successfully!
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	For Windows users: please switch to Linux if this fails. You can also try modifying the firewall settings to allow all PHP processes to create sockets (it's 100% easier to just switch to Linux, on Linux MadelineProto just works out of the box, no changes needed)
+Serialization:  	Connected to IPC socket!
+APIWrapper:     	Shutting down MadelineProto (danog\MadelineProto\API)
+APIWrapper:     	Prompting final serialization...
+APIWrapper:     	Done final serialization!
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Logger:         	MadelineProto can be translated in your language (current translation progress: 58%), go to https://weblate.madelineproto.xyz to contribute with the translation!
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	For Windows users: please switch to Linux if this fails. You can also try modifying the firewall settings to allow all PHP processes to create sockets (it's 100% easier to just switch to Linux, on Linux MadelineProto just works out of the box, no changes needed)
+Serialization:  	Connected to IPC socket!
+APIWrapper:     	Shutting down MadelineProto (danog\MadelineProto\API)
+APIWrapper:     	Prompting final serialization...
+APIWrapper:     	Done final serialization!
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Logger:         	MadelineProto can be translated in your language (current translation progress: 58%), go to https://weblate.madelineproto.xyz to contribute with the translation!
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	For Windows users: please switch to Linux if this fails. You can also try modifying the firewall settings to allow all PHP processes to create sockets (it's 100% easier to just switch to Linux, on Linux MadelineProto just works out of the box, no changes needed)
+Serialization:  	Connected to IPC socket!
+APIWrapper:     	Shutting down MadelineProto (danog\MadelineProto\API)
+APIWrapper:     	Prompting final serialization...
+APIWrapper:     	Done final serialization!
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Logger:         	MadelineProto can be translated in your language (current translation progress: 58%), go to https://weblate.madelineproto.xyz to contribute with the translation!
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	For Windows users: please switch to Linux if this fails. You can also try modifying the firewall settings to allow all PHP processes to create sockets (it's 100% easier to just switch to Linux, on Linux MadelineProto just works out of the box, no changes needed)
+Serialization:  	Connected to IPC socket!
+APIWrapper:     	Shutting down MadelineProto (danog\MadelineProto\API)
+APIWrapper:     	Prompting final serialization...
+APIWrapper:     	Done final serialization!
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Logger:         	MadelineProto can be translated in your language (current translation progress: 58%), go to https://weblate.madelineproto.xyz to contribute with the translation!
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	For Windows users: please switch to Linux if this fails. You can also try modifying the firewall settings to allow all PHP processes to create sockets (it's 100% easier to just switch to Linux, on Linux MadelineProto just works out of the box, no changes needed)
+Serialization:  	Connected to IPC socket!
+APIWrapper:     	Shutting down MadelineProto (danog\MadelineProto\API)
+APIWrapper:     	Prompting final serialization...
+APIWrapper:     	Done final serialization!
+Logger:         	MadelineProto 8.3.2
+Logger:         	Copyright (C) 2016-2024 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Logger:         	MadelineProto can be translated in your language (current translation progress: 58%), go to https://weblate.madelineproto.xyz to contribute with the translation!
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	For Windows users: please switch to Linux if this fails. You can also try modifying the firewall settings to allow all PHP processes to create sockets (it's 100% easier to just switch to Linux, on Linux MadelineProto just works out of the box, no changes needed)
+Serialization:  	Connected to IPC socket!
+APIWrapper:     	Shutting down MadelineProto (danog\MadelineProto\API)
+APIWrapper:     	Prompting final serialization...
+APIWrapper:     	Done final serialization!

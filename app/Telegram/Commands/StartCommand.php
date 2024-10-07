@@ -8,6 +8,7 @@ use Telegram\Bot\Laravel\Facades\Telegram;
 use Telegram\Bot\Objects\User;
 use App\Models\TgUser;
 use App\Models\Option;
+use App\Models\Category;
 
 class StartCommand extends Command
 {
@@ -53,11 +54,42 @@ class StartCommand extends Command
     {
         $opt = Option::where('name', 'new_user_welcome')->first();
 
+        /* {
+            "update_id": 607940345,
+            "message": {
+                "message_id": 158,
+                "from": {
+                    "id": 1306676998,
+                    "is_bot": false,
+                    "first_name": "alooze",
+                    "username": "alooze_ph",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 1306676998,
+                    "first_name": "alooze",
+                    "username": "alooze_ph",
+                    "type": "private"
+                },
+                "date": 1727960424,
+                "text": "/start",
+                "entities": [
+                    {
+                        "offset": 0,
+                        "length": 6,
+                        "type": "bot_command"
+                    }
+                ]
+            }
+        } */
+
         if (!$opt) {
-            $text = 'Привет, <strong>' . $this->tgUser->first_name . '</strong>! Добро пожаловать!';
+            $text = 'Привет, <strong>[firstname]</strong>! Добро пожаловать!';
         } else {
             $text = $opt->value;
         }
+
+        $text = $this->parsePh($text);
 
         $this->replyWithMessage([
             'text' => $text,
@@ -67,7 +99,18 @@ class StartCommand extends Command
 
     public function sendKeyboard()
     {
-        $reply_markup = Keyboard::make()
+        $cats = Category::where('status', 1)->orderBy('position', 'asc')->get();
+
+        $replyMarkup = Keyboard::make()
+                ->setResizeKeyboard(true)
+                ->setOneTimeKeyboard(true);
+        foreach ($cats as $c) {
+            $replyMarkup->row([
+                Keyboard::button($c->title),
+            ]);
+        }
+
+        /*$reply_markup = Keyboard::make()
                 ->setResizeKeyboard(true)
                 ->setOneTimeKeyboard(true)
                 ->row([
@@ -90,12 +133,12 @@ class StartCommand extends Command
                 ])
                 ->row([
                     Keyboard::button('00'),
-                ]);
+                ]);*/
 
         $response = Telegram::sendMessage([
             'chat_id' => $this->tgUser->chat_id,
             'text' => 'Выберите категорию',
-            'reply_markup' => $reply_markup
+            'reply_markup' => $replyMarkup
         ]);
 
         // $messageId = $response->getMessageId();
@@ -125,10 +168,12 @@ class StartCommand extends Command
         $opt = Option::where('name', 'user_welcome_back')->first();
 
         if (!$opt) {
-            $text = 'Привет, <strong>' . $this->tgUser->first_name . '</strong>! С возвращением!';
+            $text = 'Привет, <strong>[firstname]</strong>! С возвращением!';
         } else {
             $text = $opt->value;
         }
+
+        $text = $this->parsePh($text);
 
         $this->replyWithMessage([
             'text' => $text,
@@ -138,9 +183,35 @@ class StartCommand extends Command
 
     private function sendBlocked()
     {
+        $opt = Option::where('name', 'user_you_banned')->first();
+
+        if (!$opt) {
+            $text = 'Внимание, <strong>[username]</strong>! Вы не можете использовать этого бота в связи с блокировкой!';
+        } else {
+            $text = $opt->value;
+        }
+
+        $text = $this->parsePh($text);
+
         $this->replyWithMessage([
-            'text' => 'Вы не можете использовать этого бота в связи с блокировкой',
+            'text' => $text,
+            'parse_mode' => 'HTML',
         ]); 
+    }
+
+    private function parsePh($text)
+    {
+        return $text = str_replace([
+            '[username]',
+            '[chat]',
+            '[firstname]',
+            '[lastname]',
+        ], [
+            $this->tgUser->username,
+            $this->tgUser->id,
+            $this->tgUser->first_name,
+            $this->tgUser->last_name
+        ], $text);
     }
             
 }
