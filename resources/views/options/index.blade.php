@@ -53,4 +53,8 @@
     @endforeach
   </tbody>
 </table>
+
+<div class="note note-warning mb-3">
+  Для активации вебхука на этом домене, перейдите по <a href="{{ env('TELEGRAM_ACTIVATE_WEBHOOK') }}" target="_blank">ссылке</a>
+</div>
 @endsection

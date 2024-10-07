@@ -53,6 +53,23 @@ class ChannelsController extends Controller
             return back()->with('alert', 'Не удалось получить данные!');
         }
 
+        $messages = $API->messages->getHistory([
+                /* Название канала, без @ */
+            'peer' => $chat, 
+            'offset_id' => 0, 
+            'offset_date' => 0, 
+            'add_offset' => 0,
+            'limit' => 1,
+            // 'max_id' => 9999999, 
+            // 'min_id' => $c->last_message_id, 
+        ]);
+
+        if (!$messages || !isset($messages['messages'][0])) {
+            $lastId = 0;
+        } else {
+            $lastId = $messages['messages'][0]['id'];
+        }
+
         // dd($request);
         $c = Channel::create([
             'link' => $request->link,
@@ -61,9 +78,14 @@ class ChannelsController extends Controller
             'title' => $res['Chat']['title'],
             'username' => $res['Chat']['username'],
             'access_hash' => $res['Chat']['access_hash'],
+            'last_message_id' => $lastId,
             'status' => 1,
         ]);
-        return redirect()->route('channels.edit', ['channel' => $c->id])->with('status', 'Данные канала получены!');
+
+
+        return redirect()
+            ->route('channels.edit', ['channel' => $c->id])
+            ->with('status', 'Данные канала получены!');
     }
 
     /**

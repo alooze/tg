@@ -20,6 +20,7 @@ Route::resource('options', OptionsController::class);
 // Route::post('/webhook', function() {
 //     // return response(content: 'OK', status: 200);
 //     // https://api.telegram.org/bot6389811565:AAGeYGy_kAdQy-otfxBI75NR494ZSiJwRsw/setWebhook?url=https://ba89-38-180-33-70.ngrok-free.app/webhook
+// https://api.telegram.org/bot6389811565:AAGeYGy_kAdQy-otfxBI75NR494ZSiJwRsw/setWebhook?url=https://tg.alooze.beget.tech/webhook
 // });
 
 // Route::post('/webhook', [BotController::class, 'webhook'])->name('bot.webhook');

@@ -26,6 +26,7 @@
       <th scope="col">Telegram ID</th>
       <th scope="col">Тип</th>
       <th scope="col">Активен</th>
+      <th scope="col">ID последнего сообщения</th>
       <th scope="col">Действие</th>
     </tr>
   </thead>
@@ -44,6 +45,7 @@
         <span class="badge badge-dunger">Нет</span>
         @endif
       </td>
+      <td>{{ $c->last_message_id }}</td>
       <td>
       	<a class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark" href="{{ route('channels.edit', ['channel' => $c->id]) }}" role="button">Править</a>
       </td>
