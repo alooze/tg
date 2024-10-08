@@ -93,6 +93,6 @@ class GrabMessages extends Command
         //     'post_id' => '1',
         // ]);
 
-        file_put_contents(storage_path('logs/grab.log'),  date('d-m-Y H:i'), FILE_APPEND);
+        file_put_contents(storage_path('logs/grab.log'),  date('d-m-Y H:i') . PHP_EOL, FILE_APPEND);
     }
 }
