@@ -49,6 +49,9 @@ class ParseMessages extends Command
                 'status' => 1,
                 'published_at' => date('Y-m-d H:m:i'),
             ]);
+
+            $m->status = 0;
+            $m->save();
         }
     }
 

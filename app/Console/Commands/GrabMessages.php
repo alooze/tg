@@ -45,6 +45,8 @@ class GrabMessages extends Command
                 $c->last_message_id = -1;
             }
 
+            // echo $c->link . PHP_EOL;
+
             /* Получим историю сообщений */
             $messages = $API->messages->getHistory([
                     /* Название канала, без @ */
@@ -59,6 +61,10 @@ class GrabMessages extends Command
             // https://t.me/zakaz_design/2667
             // https://t.me/rx_john_galt/24
             // var_dump($messages);
+
+            if (!$messages || !isset($messages['messages'][0])) {
+                continue;
+            } 
 
             $maxId = $messages['messages'][0]['id'];
             $c->last_message_id = $maxId;
