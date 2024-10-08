@@ -47,7 +47,7 @@ class ParseMessages extends Command
                 'link' => '',
                 'content' => $content,
                 'status' => 1,
-                'published_at' => '',
+                'published_at' => date('Y-m-d H:m:i'),
             ]);
         }
     }
