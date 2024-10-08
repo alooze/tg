@@ -4,9 +4,9 @@ use Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schedule;
-use App\Domain\Orders\Commands\GrabMessages;
-use App\Domain\Orders\Commands\ParseMessages;
-use App\Domain\Orders\Commands\SendPosts;
+use App\Console\Commands\GrabMessages;
+use App\Console\Commands\ParseMessages;
+use App\Console\Commands\SendPosts;
 
 // Artisan::command('inspire', function () {
 //     $this->comment(Inspiring::quote());
