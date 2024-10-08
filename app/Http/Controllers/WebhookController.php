@@ -40,6 +40,7 @@ class WebhookController extends Controller
             Telegram::sendMessage([
                 'text' => 'Вы находитесь в блок-листе в этом боте!',
                 'chat_id' => $this->update->message->chat->id,
+                'parse_mode' => 'HTML',
             ]);
             return response(null, 200);
         }
@@ -94,6 +95,7 @@ class WebhookController extends Controller
         Telegram::sendMessage([
             'text' => $text,
             'chat_id' => $this->update->message->chat->id,
+            'parse_mode' => 'HTML',
         ]);
     }
 
