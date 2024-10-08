@@ -54,6 +54,8 @@ class ParseMessages extends Command
 
     private function prepareContent($text)
     {
-        return substr($text, 0, 200);
+        $ar = array_chunk(explode(' ', $text), 20);
+
+        return implode(' ', $ar[0]);
     }
 }
