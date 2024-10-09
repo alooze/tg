@@ -12,6 +12,8 @@ use danog\MadelineProto\Settings\Logger as LoggerSettings;
 
 use App\Models\Channel;
 
+use Iteks\Support\Facades\OpenAi;
+
 class BotController extends Controller
 {
     protected $telegram;
@@ -37,6 +39,25 @@ class BotController extends Controller
         // $username = $response->getUsername();
 
         return $response;
+    }
+
+    public function ai()
+    {
+        $response = OpenAi::chat()->create(
+            [
+                [   'role' => 'system', 'content' => 'You are a helpful assistant.',],
+                [ 'role' => 'user', 'content' => 'Напиши буквы русского алфавита от а до ш', ],
+            ],
+            'openai/gpt-4o-mini'
+        );
+
+        // Example of a required parameter
+        // $response = OpenAi::chat('Напиши буквы русского алфавита от а до ш');
+
+        dump($response);
+
+        // Example with optional parameters
+        // $response = OpenAi::chat('Your message here', ['temperature' => 0.7, 'max_tokens' => 150]);
     }
 
     public function read()

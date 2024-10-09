@@ -8,6 +8,7 @@
         "php": "^8.2",
         "danog/madelineproto": "^8",
         "irazasyed/telegram-bot-sdk": "^3.14",
+        "iteks/laravel-openai": "^1.0",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9"
     },

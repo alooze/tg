@@ -29,3 +29,5 @@ Route::post('/webhook', WebhookController::class);
 // Route::get('/bot', [BotController::class, 'index'])->name('bot.index');
 
 Route::any('/read', [BotController::class, 'read'])->name('reader.test');
+
+Route::any('/ai', [BotController::class, 'ai'])->name('ai.test');

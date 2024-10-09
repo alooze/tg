@@ -39,6 +39,8 @@ class ParseMessages extends Command
             // парсим текст в каком-то виде
             $content = $this->prepareContent($m->content);
 
+            if (!$content || trim($m->content) == '') continue;
+
             // сохраняем в очередь на отправку
             $p = Post::create([
                 'category_id' => $cat->id,

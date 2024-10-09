@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1378f61408ced4531155f2a0855ff7e9",
+    "content-hash": "5b9483c9d305b13b73ba0d06083ea816",
     "packages": [
         {
             "name": "amphp/amp",
@@ -3950,6 +3950,76 @@
                 "source": "https://github.com/irazasyed/telegram-bot-sdk/tree/v3.14.0"
             },
             "time": "2024-03-11T03:11:26+00:00"
+        },
+        {
+            "name": "iteks/laravel-openai",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iteks/laravel-openai.git",
+                "reference": "f2495595e6ea302450642aa7dc18b52e26fd3c84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iteks/laravel-openai/zipball/f2495595e6ea302450642aa7dc18b52e26fd3c84",
+                "reference": "f2495595e6ea302450642aa7dc18b52e26fd3c84",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.8",
+                "laravel/framework": "^9.46|^10.10|^11.0",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.18",
+                "pestphp/pest": "^2.35",
+                "pestphp/pest-plugin-arch": "^2.7",
+                "phpstan/phpstan": "^1.12",
+                "symfony/var-dumper": "^6.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Iteks\\Providers\\OpenAiServiceProvider"
+                    ],
+                    "aliases": {
+                        "OpenAi": "Iteks\\Support\\Facades\\OpenAi"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Iteks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeramy Hing",
+                    "email": "iteks@msn.com"
+                }
+            ],
+            "description": "A powerful package that seamlessly integrates OpenAI's advanced AI capabilities into your Laravel applications. This package offers quick setup and intuitive configuration to leverage AI models for chat, embeddings, and more.",
+            "keywords": [
+                "ai",
+                "api",
+                "client",
+                "data",
+                "gpt",
+                "http",
+                "laravel",
+                "openai",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/iteks/laravel-openai/issues",
+                "source": "https://github.com/iteks/laravel-openai/tree/v1.0.5"
+            },
+            "time": "2024-10-06T13:34:30+00:00"
         },
         {
             "name": "kelunik/certificate",
