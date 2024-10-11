@@ -33,7 +33,8 @@ class SendPosts extends Command
 
         foreach ($posts as $p) {
             // получаем всех подписчиков данной категории
-            $userIds = CategoryUser::where('category_id', $p->category_id)->pluck('id');
+            $userIds = CategoryUser::where('category_id', $p->category_id)->pluck('user_id');
+            
             $users = TgUser::whereIn('id', $userIds)
                         ->where('status', 1)
                         ->get();
@@ -44,14 +45,14 @@ class SendPosts extends Command
                     'chat_id' => $u->chat_id,
                     'parse_mode' => 'HTML',
                 ]);
+
+                $u->last_post_id = $p->id;
+                $u->save();
             }
 
             $p->status = 0;
             $p->published_at = date('d.m.y H:i');
             $p->save();
-
-            $u->last_post_id = $p->id;
-            $u->save();
 
             // пишем в лог
         }
