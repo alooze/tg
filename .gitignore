@@ -3,6 +3,7 @@
 /public/build
 /public/*.log
 /public/hot
+/public/MadelineProto.log
 /public/session*
 /public/storage
 /storage/*.key
@@ -16,6 +17,7 @@ Homestead.json
 Homestead.yaml
 auth.json
 npm-debug.log
+MadelineProto.log
 /session*
 yarn-error.log
 /.fleet
