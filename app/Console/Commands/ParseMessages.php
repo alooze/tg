@@ -144,6 +144,11 @@ class ParseMessages extends Command
         // $probablyCatPc = 10;
         $minAr = $this->minificationArray;
         $count = count($minAr);
+
+        if ($count < 1) {
+            return false;
+        }
+        
         $outCat = 0;
         $max = 0;
 
@@ -186,6 +191,9 @@ class ParseMessages extends Command
         // $minAr = $this->getMinificationArray($message->content);
         $minAr = $this->minificationArray;
         $count = count($minAr);
+        if ($count < 1) {
+            return false;
+        }
 
         // foreach ($this->allMessages as $m) {
         foreach ($this->allPosts as $m) {
