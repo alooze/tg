@@ -71,6 +71,7 @@ class GrabMessages extends Command
             $c->save();
 
             foreach ($messages['messages'] as $m) {
+                if (!isset($m['message'])) continue;
                 $possibleMessage = Message::where('content', $m['message'])->first();
                 if (!$possibleMessage) {
                     $mes = Message::create([
