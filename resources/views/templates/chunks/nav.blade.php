@@ -21,6 +21,9 @@
       <li class="nav-item @if (request()->routeIs('start')) active @endif">
         <a class="nav-link" aria-current="page" href="/">Главная</a>
         </li>
+      <li class="nav-item @if (request()->routeIs('users*')) active @endif">
+        <a class="nav-link" href="{{ route('users.index') }}">Подписчики</a>
+        </li>
       <li class="nav-item @if (request()->routeIs('cats*')) active @endif">
         <a class="nav-link" href="{{ route('cats.index') }}">Категории</a>
         </li>
