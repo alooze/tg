@@ -30,7 +30,7 @@
 
   <div data-mdb-input-init class="form-outline mb-4">
     <div class="btn-group">
-      <input type="radio" class="btn-check" name="channel_type" id="chat" value="chat" autocomplete="off" {{ $c->channel_type == 'chat' ? 'checked' : '' }}/>
+      <input type="radio" class="btn-check" name="channel_type" id="chat" value="chat" autocomplete="off" {{ $c->channel_type == 'chat' || $c->channel_type == 'supergroup' ? 'checked' : '' }}/>
       <label class="btn btn-secondary" for="chat" data-mdb-ripple-init>Чат</label>
 
       <input type="radio" class="btn-check" name="channel_type" id="channel" value="channel" autocomplete="off" {{ $c->channel_type == 'channel' ? 'checked' : '' }}/>
