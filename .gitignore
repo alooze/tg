@@ -19,6 +19,7 @@ auth.json
 npm-debug.log
 MadelineProto.log
 /session*
+/public/session.madeline*
 yarn-error.log
 /.fleet
 /.idea
