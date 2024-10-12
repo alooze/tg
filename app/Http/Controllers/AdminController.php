@@ -27,7 +27,6 @@ class AdminController extends Controller
                 '[lastname]',
             ], [
                 $u->username,
-                $u->id,
                 $u->first_name,
                 $u->last_name
             ], $request->content);
