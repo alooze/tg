@@ -8,6 +8,7 @@ use App\Models\Category;
 use App\Models\Post;
 use App\Models\Option;
 use App\Models\Channel;
+use Iteks\Support\Facades\OpenAi;
 
 class ParseMessages extends Command
 {
@@ -57,19 +58,57 @@ class ParseMessages extends Command
             $res = $this->isVacancy($m);
 
             if (!$res) {
-                $m->status = 2;
+                $m->status = 2; // не вакансия
                 $m->save();
                 continue;
             }
 
-            // проверяем на соответствие категории
-            // $cat = Category::find(1);
-            $cat = $this->checkCategory($m);
-            if (!$cat) {
-                $m->status = 3;
-                $m->save();
-                continue;
+            // обращаемся к GPT, чтобы получить id категории
+            $res = $this->askGpt($m);
+            if (!$res) {
+                // GPT не ответил, работаем в ручном режиме
+
+                // проверяем на соответствие категории
+                // $cat = Category::find(1);
+                $cat = $this->checkCategory($m);
+                if (!$cat) {
+                    $m->status = 3; // нет категории
+                    $m->save();
+                    continue;
+                }
+            } else {
+                switch ($res) {
+                    case 0: // не вакансия
+                        $m->status = 2;
+                        $m->save();
+                        continue(2);
+
+                    case 9: // не дизайн
+                        $m->status = 9;
+                        $m->save();
+                        continue(2);
+
+                    case 1: // категория
+                    case 2: // категория
+                    case 3: // категория
+                    case 4: // категория
+                    case 5: // категория
+                        $cat = Category::find($res);
+                        if (!$cat) {
+                            $m->status = 3; // нет категории
+                            $m->save();
+                            continue(2);
+                        }
+                        break;
+                    
+                    default:
+                        // хз, что ответил GPT
+                        $m->status = 300; // непонятный ответ GPT
+                        $m->save();
+                        continue(2);
+                }
             }
+            
 
             // парсим текст в каком-то виде
             $content = $this->prepareContent($m);
@@ -97,6 +136,62 @@ class ParseMessages extends Command
             $m->status = 0;
             $m->save();
         }
+    }
+
+    private function askGpt(Message $message)
+    {
+        $prompt = Option::where('name', 'gpt_prompt')->first();
+
+        if (!$prompt) {
+            return false;
+        }
+
+        $text = $prompt->value;
+
+        $content = str_replace('[content]', $message->content, $text);
+
+        if (!$content || trim($content) == '') {
+            return false;
+        }
+
+        // var_dump($content);
+        // die();
+
+
+        $response = OpenAi::chat()->create(
+            [
+                [
+                    'role' => 'system', 
+                    'content' => 'You are a large language model. Carefully heed the user\'s instructions.',
+                ],
+                // [ 
+                //     'role' => 'user', 
+                //     'content' => 'Напиши буквы русского алфавита от а до ш', 
+                // ],
+                [ 
+                    'role' => 'user', 
+                    'content' => $content, 
+                ],
+            ],
+            'openai/gpt-4o-mini'
+        );
+
+        file_put_contents(
+            storage_path('logs/parse_gpt.log'), 
+            $content . PHP_EOL . '=>' . var_export($response, true) . PHP_EOL . '-------------' . PHP_EOL,
+            FILE_APPEND
+        );
+
+        if (!$response 
+            || !isset($response['choices'])
+            || !isset($response['choices'][0])
+            || !isset($response['choices'][0]['message'])
+            || !isset($response['choices'][0]['message']['content'])
+        ) {
+            return false;
+        }
+
+        return (int) $response['choices'][0]['message']['content'];
     }
 
     private function prepareContent(Message $message)
@@ -148,7 +243,7 @@ class ParseMessages extends Command
         if ($count < 1) {
             return false;
         }
-        
+
         $outCat = 0;
         $max = 0;
 

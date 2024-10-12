@@ -17,6 +17,10 @@
   <a class="btn btn-primary mb-5" data-mdb-ripple-init="" href="{{ route('cats.create') }}" role="button" style="">Создать новую категорию</a>
 </div>
 
+<div class="note note-primary mb-3">
+  <strong>Обратите внимание:</strong> категории в данном разделе могут меняться по вашему усмотрению, но в случае добавления новых категорий, необходимо внести соответствующие изменения в промпт для GPT в разделе Настроек. 
+</div>
+
 <table class="table table-hover">
   <thead>
     <tr>

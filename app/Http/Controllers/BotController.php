@@ -45,8 +45,24 @@ class BotController extends Controller
     {
         $response = OpenAi::chat()->create(
             [
-                [   'role' => 'system', 'content' => 'You are a helpful assistant.',],
-                [ 'role' => 'user', 'content' => 'Напиши буквы русского алфавита от а до ш', ],
+                [   'role' => 'system', 'content' => 'You are a large language model. Carefully heed the user\'s instructions.',],
+                // [ 'role' => 'user', 'content' => 'Напиши буквы русского алфавита от а до ш', ],
+                [ 'role' => 'user', 
+                'content' => 'Прочитай текст и ответь цифрой 0, если текст не является объявлением о вакансии. Ответь цифрой 1, если вакансия не связана с разработкой дизайна. 
+Ответь цифрой 2, если вакансия связана с разработкой дизайна веб-сайтов, логотипов, соцсетей, youtube, Тильда, веб-баннеров.
+Ответь цифрой 3, если вакансия связана с разработкой дизайна айдентики, фирменного стиля, бренд буков, визиток, обложек, постеров.
+Ответь цифрой 4, если вакансия связана с разработкой дизайна для маркетплейсов, для wildberries, озон, рич-контентом.
+Ответь цифрой 5, если вакансия связана с разработкой дизайна презентаций, резюме, рекламы, для highlights.
+Ответь цифрой 6, если вакансия связана с разработкой дизайна полиграфии, листовок, буклетов, визиток, макетов для печати, принтов, наружных вывесок, прессы, наклеек, печатных каталогов, roll up.
+
+Текст: 
+
+#ищу 
+Нужен граф.дизайнер для отрисовки стикеров на печать и в ТГ
+Просьба откликаться в ЛС
+Работа в иллюстраторе
+@Anastasia_des
+                ', ],
             ],
             'openai/gpt-4o-mini'
         );
@@ -54,7 +70,7 @@ class BotController extends Controller
         // Example of a required parameter
         // $response = OpenAi::chat('Напиши буквы русского алфавита от а до ш');
 
-        dump($response);
+        dump($response['choices'][0]['message']['content']);
 
         // Example with optional parameters
         // $response = OpenAi::chat('Your message here', ['temperature' => 0.7, 'max_tokens' => 150]);
