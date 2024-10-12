@@ -11,6 +11,7 @@ use App\Http\Controllers\TgUserController;
 
 
 Route::get('/', [AdminController::class, 'index'])->name('start');
+Route::post('send', [AdminController::class, 'sendAll'])->name('send');
 
 Route::resource('cats', CategoryController::class);
 Route::resource('channels', ChannelsController::class);
